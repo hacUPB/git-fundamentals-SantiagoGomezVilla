@@ -41,11 +41,11 @@ int main(int argc, char *argv[]) {
     /*Print the result*/
     if(count == 1)
     {
-        printf("%d es número primo\n",number);
+        printf("%d is not a prime number\n",number);
     }
     else
     {
-        printf("%d no es número primo\n",number);
+        printf("%d is a prime number\n",number);
     }
     return 0;
 }
