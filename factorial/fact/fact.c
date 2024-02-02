@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
     if (argc < 2)
     {
-        fprintf(stderr, "Usage: program <number>\n");
+        fprintf(stderr,"Usage: program <number>\n");
         return (1);
     }
 
@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
     /*It must be verified that the entered number is greater than or equal to zero*/
     if (number < 0)
     {
-        fprintf(stderr, "The number must be greater than or equal to zero\n");
+        fprintf(stderr,"The number must be greater than or equal to zero\n");
         return (1);
     }
 
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
     }
 
     /*Print the result*/
-    printf("The factorial of %d is: %d\n", number, factorial);
+    fprintf(stderr,"The factorial of %d is: %d\n", number, factorial);
 
     /*Implement the function that calculates if the argument is a prime number*/
     int count = 0, index = 1;
@@ -43,11 +43,11 @@ int main(int argc, char *argv[])
     /*Print the result*/
     if (count == 1)
     {
-        printf("%d is not a prime number\n", number);
+        fprintf(stderr,"%d is not a prime number\n", number);
     }
     else
     {
-        printf("%d is a prime number\n", number);
+        fprintf(stderr,"%d is a prime number\n", number);
     }
     return (0);
 }
