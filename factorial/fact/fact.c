@@ -48,5 +48,4 @@ int main(int argc, char *argv[]) {
         printf("%d is a prime number\n",number);
     }
     return (0);
-    
 }
