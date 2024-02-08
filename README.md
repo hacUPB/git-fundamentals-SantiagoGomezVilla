@@ -1,3 +1,20 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/L-l2uhAO)
-# ProjVec-Eval
-Evaluación sobre uso de git para manejo de repositorios. Se espera que el estudiante cree un programa en C y corra unos vectores de prueba. 
+# EVALUACION 1
+
+## Este código en C es un programa básico que recibe un número como parámetro de la línea de comandos, realiza el cálculo de su factorial y verifica si es un número primo.
+![Imagen](https://github.com/hacUPB/git-fundamentals-SantiagoGomezVilla/blob/main/factorial/fact/Captura%20de%20pantalla%202024-02-08%20181024.png)
+
+
+[Codigo en github](https://github.com/hacUPB/git-fundamentals-SantiagoGomezVilla/blob/main/factorial/fact/fact.c)
+
+### - lista de comandos:
+- Para clonar el repositorio de la evaluacion: 
+git clone "https://github.com/henryandr/ProjEval1.git"
+
+- Para adicionar a el STAGE:
+git add (archivo)
+
+- Para registrar cambios:
+git commit -m "(indicacion)"
+
+- Sincronizar el repositorio:
+git push
