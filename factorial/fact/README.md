@@ -1,24 +1,18 @@
+# EVALUACION 1
 
-In this directory, you should write the program `fact.c` and compile it into
-the binary `fact` (e.g., `gcc -o fact fact.c -Wall -Werror`).
+## Este código en C es un programa básico que recibe un número como parámetro de la línea de comandos, realiza el cálculo de su factorial y verifica si es un número primo.
 
-After doing so, you can run the tests from this directory by running the
-`test-fact.sh` script. If all goes well, you will see:
+- [Codigo en github](https://github.com/hacUPB/git-fundamentals-SantiagoGomezVilla/blob/main/factorial/fact/fact.c).
 
-```sh
-prompt> ./test-fact.sh
-test 1: passed
-test 2: passed
-test 3: passed
-test 4: passed
-test 5: passed
-test 6: passed
-test 7: passed
-prompt>
-```
+### - lista de comandos:
+- Para clonar el repositorio de la evaluacion: 
+git clone "https://github.com/henryandr/ProjEval1.git"
 
-The `test-fact.sh` script is just a wrapper for the `run-tests.sh` script in
-the `tester` directory of this repository. This program has a few options; see
-the relevant
-[README](https://github.com/remzi-arpacidusseau/ostep-projects/blob/master/tester/README.md)
-for details.
+- Para adicionar a el STAGE:
+git add (archivo)
+
+- Para registrar cambios:
+git commit -m "(indicacion)"
+
+- Sincronizar el repositorio:
+git push
