@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[])
 {
-    if (argc < 2)
+    if (argc != 2)
     {
         fprintf(stderr, "Usage: program <number>\n");
         return (1);
@@ -19,8 +19,8 @@ int main(int argc, char *argv[])
     }
 
     /*Implement the function that calculates the factorial of the input argument*/
-    long int factorial = 1;
-    long int b;
+    long long int factorial = 1;
+    long long int b;
     for (b = number; b > 1; b--)
     {
         factorial *= b;
