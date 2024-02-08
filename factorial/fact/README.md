@@ -2,7 +2,7 @@
 
 ## Este código en C es un programa básico que recibe un número como parámetro de la línea de comandos, realiza el cálculo de su factorial y verifica si es un número primo.
 
-- [Codigo en github](https://github.com/hacUPB/git-fundamentals-SantiagoGomezVilla/blob/main/factorial/fact/fact.c).
+- [Codigo en github] (https://github.com/hacUPB/git-fundamentals-SantiagoGomezVilla/blob/main/factorial/fact/fact.c).
 
 ### - lista de comandos:
 - Para clonar el repositorio de la evaluacion: 
